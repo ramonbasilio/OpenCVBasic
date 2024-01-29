@@ -2,7 +2,7 @@ import cv2
 loadAlg = cv2.CascadeClassifier('haarcascades/haarcascade_frontalface_default.xml')
 
 image = cv2.imread('imagens/imagem_03.jpeg')
-image = cv2.resize(image, (1280, 900))
+image = cv2.resize(image, (1270, 900))
 
 imageGrey = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
